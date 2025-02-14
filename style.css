@@ -98,3 +98,19 @@ input:focus{
     margin: 10px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    img{
+        display: none;
+    }
+    .wrapper{
+        left: 20%;
+        height: 550px;
+    }
+}
+
+@media (max-width:425px) {
+    .wrapper{
+        left: 4%;
+    }
+}
