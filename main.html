@@ -41,16 +41,131 @@
         top:14%;
         left: 2.5%;
         border-radius: 15px;
-        background: rgba(255, 255, 255, 0.112);
+        background: transparent;
+        background: rgba(203, 203, 203, 0.112);
         backdrop-filter: blur(10px);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .main-1{
+        position: relative;
+        /* background: rgba(255, 255, 255, 0.112);
+        backdrop-filter: blur(50px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+        border-radius: 15px;
+        width: 100%;
+        height: 45%;
+    }
+    .main-2{
+        position: absolute;
+        /* background: rgba(12, 12, 12, 0.112);
+        backdrop-filter: blur(50px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+        top:45%;
+        width: 100%;
+        height: 55%;
+        border-radius: 15px;
+    }
+    .select{
+        height: 90%;
+        margin: 5px;
+        width: 100%;
+        display: flex;
+    }
+    .box-1{
+        height: 100%;
+        width: 20%;
+        margin: 10px;
+        background: rgba(0, 0, 0, 0.112);
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .box-2{
+        height: 100%;
+        width: 10%;
+        margin: 10px;
+        margin-left: 20px;
+        background: rgba(0, 0, 0, 0.112);
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px black;
+    }
+
+    .nav-bar{
+        height: 23%;
+        background-color: rgba(0, 0, 0, 0.203);
+        border-radius: 15px;
+    }
+    .booking{
+        height: 35%;
+        margin-top: 1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: yellow;
+    }
+    .box-5{
+        height:80%;
+        width: 20%;
+        margin: 1%;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px black;
+    }
+    .img{
+        height: 75%;
+        width: 100%;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    #click_1{
+        background-color: aquamarine;
+    }
+    #click_2{
+        background-color: burlywood;
+    }
+    #click_3{
+        background-color:tomato;
+    }
+    #click_4{
+        background-color:teal;
+    }
+    #click_5{
+        background-color: seagreen;
+    }
+    #click_6{
+        background-color:lightsalmon;
     }
 </style>
 <body>
     <div class="glass-card"></div>
 
     <div class="main">
-
+        <div class="main-1">
+            <div class="nav-bar">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p style="display: flex;justify-content: center;align-items: center;font-size: 1.4em; margin-top: 1%;">welcome skfsvnxkvnlxk////////////////</p>
+            <p style="display: flex;justify-content: center;align-items: center;font-size: 1em; margin-top: 1%; color: rgba(255, 255, 255, 0.667);">sdfdgfgfhfghgh</p>
+            <div class="booking">
+                <div class="box-5" id="click_1">a</div>
+                <div class="box-5" id="click_2">a</div>
+                <div class="box-5" id="click_3">a</div>
+                <div class="box-5" id="click_4">a</div>
+                <div class="box-5" id="click_5">a</div>
+                <div class="box-5" id="click_6">a</div>
+            </div>
+        </div>
+        <div class="main-2">
+            <div class="select">
+                <div class="box-2"><p style="display: flex;justify-content: center;align-items: center;margin-top: 50%; font-size: 1.5em;font-weight: 600;">Explore <br>the <br> world<br>✈️</p></div>
+                <div class="box-1"><img class="img" src="./resources/output.jpg" alt=""></div>
+                <div class="box-1"><img class="img" src="./resources/output.jpg" alt=""></div>
+                <div class="box-1"><img class="img" src="./resources/output.jpg" alt=""></div>
+                <div class="box-1"><img class="img" src="./resources/output.jpg" alt=""></div>
+            </div>
+        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
