@@ -5,8 +5,8 @@ function back() {
 document.querySelector(".btn").addEventListener("click", prevent)
 function prevent(event) {
     event.preventDefault();
-    var email = document.querySelector("#email").value.trim();
-    var password = document.querySelector("#password").value.trim();
+    const email = document.querySelector("#email").value.trim();
+    const password = document.querySelector("#password").value.trim();
 
     if (email === "" || password === "") {
         alert("Please fill in all fields.");
