@@ -11,8 +11,10 @@ for (var i = 0; i < count; i++) {
 function hover() {
   this.style.transform = 'scale(1.02)';
   this.style.transition = 'ease-in-out 1s';
+  this.style.backgroundColor='rgba(0, 0, 0, 0.35)';
 }
 
 function click() {
   this.style.transform = 'scale(1)';
+  this.style.backgroundColor='rgba(0, 0, 0, 0.112)';
 }
