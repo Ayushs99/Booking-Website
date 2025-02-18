@@ -71,6 +71,7 @@
         background: rgba(0, 0, 0, 0.112);
         border-radius: 15px;
         box-shadow: 0px 0px 20px black;
+        cursor: pointer;
     }
     .box-2{
         height: 100%;
@@ -80,12 +81,7 @@
         background: rgba(0, 0, 0, 0.112);
         border-radius: 15px;
         box-shadow: 0px 0px 20px black;
-    }
-
-    .nav-bar{
-        height: 23%;
-        background-color: rgba(0, 0, 0, 0.203);
-        border-radius: 15px;
+        cursor: pointer;
     }
     .booking{
         height: 35%;
@@ -106,7 +102,6 @@
         height: 75%;
         width: 100%;
         border-radius: 15px;
-        cursor: pointer;
     }
     #click_1{
         background-color: aquamarine;
@@ -125,4 +120,44 @@
     }
     #click_6{
         background-color:lightsalmon;
+    }
+
+    .nav-bar{
+        height: 23%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.203);
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-div-1{
+        width: 18%;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    .internal-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 2em;
+        height: 80%;
+        width: 40%;
+        margin-right: 150px;
+        background: rgba(0, 0, 0, 0.427);
+    }
+    .category{
+        /* margin: 15px; */
+        padding: 12px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 2em;
+    }
+    .category:hover{
+        background-color: #fcb017;
+        color: white;
+        transition: ease-in-out 0.5s;
+
     }
