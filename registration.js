@@ -5,10 +5,10 @@ function back() {
 document.querySelector(".btn").addEventListener("click", prevent)
 function prevent(event) {
     event.preventDefault();
-    var name = document.querySelector("#name").value.trim();
-    var number = document.querySelector("#number").value.trim();
-    var email = document.querySelector("#email").value.trim();
-    var password = document.querySelector("#password").value.trim();
+    let name = document.querySelector("#name").value.trim();
+    let number = document.querySelector("#number").value.trim();
+    let email = document.querySelector("#email").value.trim();
+    let password = document.querySelector("#password").value.trim();
 
     if (name === "" || number === "" || email === "" || password === "") {
         alert("Please fill in all fields.");
