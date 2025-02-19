@@ -1,5 +1,5 @@
 var count = document.querySelectorAll(".box-1").length;
-for (const i = 0; i < count; i++) {
+for (let i = 0; i < count; i++) {
   let mouse_hover = document.querySelectorAll('.box-1')[i];
   let mouse_hover_1=document.querySelector(".box-2");
   mouse_hover_1.addEventListener("mouseover",hover);
